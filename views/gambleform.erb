@@ -1,0 +1,38 @@
+
+<html>
+    <head> 
+        <link href='style.css' rel='stylesheet' type='text/css'> 
+    </head>
+    <body>
+        <p> <%= @message %> </p>
+        <p> Place your bet on dice number 1-6</p>
+        
+        <div id='flex'>
+            <form action="/betting" method="POST">
+                        Bet money <input type='text' name='betamount' id='betamount'><br><br>
+                        On <input type='text' name='number' id='number'>
+                        <br><br>
+                        <input type='submit' name='submit' value="Bet" >
+            </form>
+            <div id='session'>
+                <p><span class='earnings'>Total win:</span> <br><%= @totalWin %></p>
+                <p><span class='earnings'>Total loss:</span> <br><%= @totalLoss %></p>
+                <p><span class='earnings'>Total profit:</span> <br><%= @totalProfit %></p>
+            </div>
+        </div>
+        <div>
+        Account
+            <div id='accountinformation'>
+                <p><span class='totals'>Total win:</span> <br><%= @accountWin %></p>
+                <p><span class='totals'>Total loss:</span> <br><%= @accountLoss %></p>
+                <p><span class='totals'>Total profit:</span> <br><%= @accountProfit %></p>
+            </div>
+        </div>
+
+        <div id='logoutbutton'>
+            <form action='/logout' method="POST">
+                <input type='submit' name='submit' value="Logout" id='logout'>
+            </form>
+        </div>
+    </body>
+</html>

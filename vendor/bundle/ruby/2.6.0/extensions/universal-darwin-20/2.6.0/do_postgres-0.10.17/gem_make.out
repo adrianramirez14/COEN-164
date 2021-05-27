@@ -1,0 +1,44 @@
+current directory: /Users/adrianramirez/Desktop/coen164 assignments/assignment2/vendor/bundle/ruby/2.6.0/gems/do_postgres-0.10.17/ext/do_postgres
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210515-4619-tnsie1.rb extconf.rb
+checking for -lpq... no
+checking for -llibpq... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+	--with-pgsql-server-dir
+	--without-pgsql-server-dir
+	--with-pgsql-server-include
+	--without-pgsql-server-include=${pgsql-server-dir}/include
+	--with-pgsql-server-lib
+	--without-pgsql-server-lib=${pgsql-server-dir}/lib
+	--with-pgsql-client-dir
+	--without-pgsql-client-dir
+	--with-pgsql-client-include
+	--without-pgsql-client-include=${pgsql-client-dir}/include
+	--with-pgsql-client-lib
+	--without-pgsql-client-lib=${pgsql-client-dir}/lib
+	--with-pqlib
+	--without-pqlib
+	--with-libpqlib
+	--without-libpqlib
+Could not find PostgreSQL build environment (libraries & headers): Makefile not created
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/adrianramirez/Desktop/coen164 assignments/assignment2/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-20/2.6.0/do_postgres-0.10.17/mkmf.log
+
+extconf failed, exit code 1

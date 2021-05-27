@@ -1,0 +1,31 @@
+current directory: /Users/adrianramirez/Desktop/coen164 assignments/assignment2/vendor/bundle/ruby/2.6.0/gems/do_sqlite3-0.10.17/ext/do_sqlite3
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210515-3649-p093sf.rb extconf.rb
+checking for sqlite3.h... yes
+checking for sqlite3_open() in -lsqlite3... yes
+checking for localtime_r()... yes
+checking for gmtime_r()... yes
+checking for sqlite3_prepare_v2()... yes
+checking for sqlite3_open_v2()... yes
+checking for sqlite3_enable_load_extension()... no
+creating Makefile
+
+current directory: /Users/adrianramirez/Desktop/coen164 assignments/assignment2/vendor/bundle/ruby/2.6.0/gems/do_sqlite3-0.10.17/ext/do_sqlite3
+make "DESTDIR=" clean
+
+current directory: /Users/adrianramirez/Desktop/coen164 assignments/assignment2/vendor/bundle/ruby/2.6.0/gems/do_sqlite3-0.10.17/ext/do_sqlite3
+make "DESTDIR="
+compiling do_common.c
+compiling do_sqlite3.c
+compiling do_sqlite3_extension.c
+linking shared-object do_sqlite3/do_sqlite3.bundle
+ld: warning: directory not found for option '-L/opt/local/lib'
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+ld: warning: ignoring file do_sqlite3.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file do_common.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file do_sqlite3_extension.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: directory not found for option '-L/opt/local/lib'
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+
+current directory: /Users/adrianramirez/Desktop/coen164 assignments/assignment2/vendor/bundle/ruby/2.6.0/gems/do_sqlite3-0.10.17/ext/do_sqlite3
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 do_sqlite3.bundle ./.gem.20210515-3649-10p1uc1/do_sqlite3

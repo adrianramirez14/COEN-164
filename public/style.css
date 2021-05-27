@@ -1,0 +1,66 @@
+#header {
+    font-size: 30px;
+}
+#section {
+    background-color: gray;
+    padding: 5px;
+}
+#sectionborder {
+    width: auto;
+    height: auto;
+}
+
+#user {
+    border: 1px solid skyblue;
+}
+
+#pass {
+    border: 1px solid skyblue;
+}
+
+#total {
+    border: 2px solid black;
+    width: 400px;
+    height: auto;
+}
+
+#dynamic {
+    margin-left: 30px;
+    height: auto;
+}
+
+#session {
+    position: relative;
+    bottom: 10px;
+    border: 1px solid black;
+    margin-left: 100px;
+    height: auto;
+    padding: 0px 5px 0px 5px;
+    right: 5px;
+}
+
+.earnings {
+    font-weight: bold;
+}
+
+#flex {
+    display: flex;
+}
+
+#accountinformation {
+    border: 1px solid black;
+    padding: 0px;
+    width: 295px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.totals {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#logoutbutton {
+    padding-top: 15px;
+}
